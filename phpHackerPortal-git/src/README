@@ -1,0 +1,6 @@
+The code was written in PHP 5.5.4 on Apache httpd
+
+This is the tree which you have to copy to a PHP enabled webserver directory.
+
+Note that you best include "include/root.php" when you start new directories.
+Also, have a look at "include/include.std.php"

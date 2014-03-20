@@ -1,0 +1,15 @@
+#pixelwindow {
+	width: 320px;
+	height: 200px;
+	background: #0000ff;
+}
+
+#pixelwindow div{
+	width: 6px;
+	height: 6px;
+	background: #00ff00;
+}
+
+body
+{
+}

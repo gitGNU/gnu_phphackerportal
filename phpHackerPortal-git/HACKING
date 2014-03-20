@@ -1,0 +1,27 @@
+Ideas for hackers and portals :
+-------------------------------
+
+. write the db to file when the program exits so it can be reloaded
+. index.php css
+. better name for getdocID in JS and PHP
+. egrep floating window, egrepping on text on the page e.g. in text widgets
+
+Games:
+=====
+
+. roguelike game
+. tetris game (see draw.php)
+. adventure game
+
+Tool:
+=====
+
+. write a tool for converting bmp or png images to css (blocks)
+
+Languages:
+==========
+. The schemeparsetree is included in schemeparser and has some common functions (see the files scheme*.php)
+. svg parser for modding
+. program a REPL in HTML -> correct scheme implementation while running
+. webscheme, modification of scheme files to change cgi-bin
+or anything on the PHP server filesystem

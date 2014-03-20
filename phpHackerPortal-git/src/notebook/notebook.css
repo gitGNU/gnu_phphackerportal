@@ -1,0 +1,29 @@
+body
+{
+background-color:lightblue;
+position:relative;
+left:20px;
+}
+
+testbody
+{
+background-color:lightblue;
+text-align:center;
+position:relative;
+left:20px;
+}
+
+
+#textpara
+{
+background-color:white;
+border: 2px solid;
+box-shadow: 10px 10px 5px #888888;
+width: 400px;
+}
+
+#textareapara
+{
+
+
+}
