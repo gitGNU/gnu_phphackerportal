@@ -23,12 +23,74 @@
 <?php
 include('../include/root.php');
 
+
+
 function connectToPostgressSQL($site, $login, $pass,$dbname)
 {
 
-	$connection = pg_connect("host=$site dbname=$dbname user=$login password=$pass");	
+	$connection = pg_connect("host=" . $site . "dbname=" . $dbname . "user=" . $login . "password=" . $pass");	
 	return $connection;
 
 }
+
+//query wrapper
+function getQuery($query, $dbconn = (isset($currentdbconn) ? $currentdbconn : $dbconn))
+{
+	return ($result = pg_query($dbconn, $query));
+}
+//fetch column of nth field
+function getNthField($n, $table, $dbconn = (isset($currentdbconn) ? $currentdbconn : $dbconn))
+{
+	$rows = array();
+	while ($row = pg_fetch_row(getQuery("SELECT * FROM " . $table . ";", $dbconn))) {
+		array_push($rows, $row[$n]);
+	}
+	return $rows;
+}	
+//fetch column of named field
+function getNamedField($fieldname, $table, $dbconn = (isset($currentdbconn) ? $currentdbconn : $dbconn))
+{
+	$rows = array();
+	while ($row = pg_fetch_row(getQuery("SELECT * FROM " . $table . ";", $dbconn))) {
+		array_push($rows, $row[$fieldname]);
+	}
+	return $rows;
+}
+
+function getFirstNamedField($fieldname, $table, $dbconn = (isset($currentdbconn) ? $currentdbconn : $dbconn))
+{
+	return getNamedField($fieldname, $table, $dbconn)[0];
+}
+
+function getSecondNamedField($fieldname, $table, $dbconn = (isset($currentdbconn) ? $currentdbconn : $dbconn))
+{
+	return getNamedField($fieldname, $table, $dbconn)[1];
+}
+
+function getThirdNamedField($fieldname, $table, $dbconn = (isset($currentdbconn) ? $currentdbconn : $dbconn))
+{
+	return getNamedField($fieldname, $table, $dbconn)[2];
+}
+
+function getFourthNamedField($fieldname, $table, $dbconn = (isset($currentdbconn) ? $currentdbconn : $dbconn))
+{
+	return getNamedField($fieldname, $table, $dbconn)[3];
+}
+
+function getFifthNamedField($fieldname, $table, $dbconn = (isset($currentdbconn) ? $currentdbconn : $dbconn))
+{
+	return getNamedField($fieldname, $table, $dbconn)[4];
+}
+
+function getSixthNamedField($fieldname, $table, $dbconn = (isset($currentdbconn) ? $currentdbconn : $dbconn))
+{
+	return getNamedField($fieldname, $table, $dbconn)[5];
+}
+
+function getSeventhNamedField($fieldname, $table, $dbconn = (isset($currentdbconn) ? $currentdbconn : $dbconn))
+{
+	return getNamedField($fieldname, $table, $dbconn)[6];
+}
+//and so on ...
 
 ?>
