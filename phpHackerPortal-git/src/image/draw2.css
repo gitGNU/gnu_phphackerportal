@@ -4,8 +4,8 @@
 	position: relative;
 	overflow: hidden;
 	width: 530px;
-	height: 3px;
-	border: 1px solid #000;
+	height: 10px;
+	border: 0px solid #000;
 }
 
 .example_path2 .example_block2 {

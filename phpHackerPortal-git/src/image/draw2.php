@@ -26,7 +26,7 @@ include('../include/root.php');
 echo '<html>
 <head>
 <link type="text/css" rel="stylesheet"
-  href="draw.css">
+  href="draw2.css">
 <script>
 function move(elem) {
  
@@ -48,8 +48,8 @@ function move(elem) {
 </head>
  
 <body>
-<div onclick="move(this.children[0])" class="example_path">
-    <div class="example_block"></div>
+<div onclick="move(this.children[0])" class="example_path2">
+    <div class="example_block2"></div>
 </div>
 </body>
 </html>';

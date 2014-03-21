@@ -1,0 +1,8 @@
+Extensions:
+===========
+. pixelize xpm to pixels and use frames for character motion
+. xpm file converted to CSS gnome_blocks (pixels of gnome character pixture)
+
+Proper game animation:
+======================
+. See comments in the 8x8.picture.example.php and 8x8.picture.example.css files

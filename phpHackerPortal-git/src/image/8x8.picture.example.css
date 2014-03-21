@@ -1,0 +1,740 @@
+
+/* for pixelized motion on the 640x480 pixels screen */
+.8x8_path {
+position: relative;
+	overflow: hidden;
+	width: 640px;
+	height: 480px;
+	border: 3px solid #000;
+}
+
+
+/* The following 64 pixels are an 8x8 picture */
+/* You have to modify the lines 'color: #fff' 
+   to the color you want for each of the 64 
+   pixels in the picture 8 rows of 8 pixels 
+*/
+/* If you want animation you have to add more
+   pixels and change them in the accomapnying 
+   PHP code so they change with the move command
+*/ 
+
+
+.8x8_path .8x8_block0 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block1 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block2 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block3 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block4 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block5 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block6 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block7 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block8 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block9 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block10 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block11 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block12 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block13 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block14 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block15 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block16 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block17 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block18 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block19 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block20 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block21 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block22 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block23 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block24 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block25 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block26 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block27 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block28 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block29 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block30 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block31 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block32 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block33 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block34 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block35 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block36 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block37 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block38 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block39 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block40 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block41 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block42 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block43 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block44 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block45 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block46 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block47 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block48 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block49 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block50 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block51 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block52 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block53 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block54 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block55 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block56 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block57 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block58 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block59 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block60 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block61 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block62 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.8x8_path .8x8_block63 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+
+
+//off limits
+.8x8_path .8x8_block64 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}

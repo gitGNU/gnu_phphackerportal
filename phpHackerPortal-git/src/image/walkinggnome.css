@@ -1,0 +1,730 @@
+
+/* for pixelized gnome motion on the gnome path */
+.gnome_path {
+position: relative;
+	overflow: hidden;
+	width: 640px;
+	height: 480px;
+	border: 3px solid #000;
+}
+
+
+/* The following 64 pixels are an 8x8 picture of a gnome */
+.gnome_path .gnome_block0 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block1 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block2 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block3 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block4 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block5 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block6 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block7 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block8 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block9 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block10 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block11 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block12 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block13 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block14 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block15 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block16 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block17 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block18 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block19 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block20 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block21 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block22 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block23 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block24 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block25 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block26 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block27 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block28 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block29 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block30 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block31 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block32 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block33 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block34 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block35 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block36 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block37 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block38 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block39 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block40 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block41 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block42 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block43 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block44 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block45 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block46 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block47 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block48 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block49 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block50 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block51 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block52 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block53 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block54 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block55 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block56 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block57 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block58 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block59 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block60 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block61 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block62 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+.gnome_path .gnome_block63 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}
+
+
+//off limits
+.gnome_path .gnome_block64 {
+	position: absolute;
+	background-color: blue;
+	width: 1px;
+	height: 1px;
+	padding-top: 1px;
+	text-align: center;
+	color: #fff;
+	font-size: 1px;
+	white-space: nowrap;
+}

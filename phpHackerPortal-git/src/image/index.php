@@ -1,6 +1,6 @@
 <?php
 
-/* drawing functionality */
+/* image page */
 
 /*
  Copyright (C) Johan Ceuppens 2013
@@ -27,30 +27,9 @@ echo '<html>
 <head>
 <link type="text/css" rel="stylesheet"
   href="draw.css">
-<script>
-function move(elem) {
- 
-  var left = 0
- 
-  function frame() {
-     
-    left++  // update parameters
-     
-    elem.style.left = left + \'px\' // show frame
-
-    if (left == 300)  // check finish condition
-      clearInterval(id)
-  }
- 
-  var id = setInterval(frame, 10) // draw every 10ms
-}
-</script>
 </head>
- 
 <body>
-<div onclick="move(this.children[0])" class="example_path">
-    <div class="example_block"></div>
-</div>
+
 </body>
 </html>';
 

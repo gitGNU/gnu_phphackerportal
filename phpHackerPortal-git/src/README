@@ -4,3 +4,6 @@ This is the tree which you have to copy to a PHP enabled webserver directory.
 
 Note that you best include "include/root.php" when you start new directories.
 Also, have a look at "include/include.std.php"
+
+
+See the HACKING and README files (if present) ni the subdirectories. 
