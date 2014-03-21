@@ -1,0 +1,10 @@
+
+
+includeing more than one stylesheet :
+
+<style type="text/css" media="all">
+@import url(styles1.css);
+@import url(styles2.css);
+@import url(styles3.css);
+
+</style>
