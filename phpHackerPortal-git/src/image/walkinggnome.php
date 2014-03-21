@@ -35,10 +35,11 @@ function move(elem) {
   function frame() {
      
     left++  // update parameters
-     
+    top++ 
     elem.style.left = left + \'px\' // show frame
+    elem.style.top = top + \'px\' // show frame
 
-    if (left == 600)  // check finish condition
+    if (left == 600 || top == 400)  // check finish condition
       clearInterval(id)
   }
  

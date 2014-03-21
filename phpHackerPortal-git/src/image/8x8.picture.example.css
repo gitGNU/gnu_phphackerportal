@@ -1,5 +1,17 @@
+/* The following 64 pixels are an 8x8 picture */
+/* You have to modify the lines 'color: #fff' 
+   to the color you want for each of the 64 
+   pixels in the picture 8 rows of 8 pixels 
 
-/* for pixelized motion on the 640x480 pixels screen */
+   The top and left styles indicate the row
+   and column of the pixel in the 8x8 grid.
+*/
+/* If you want animation you have to add more
+   pixels and change them in the accomapnying 
+   PHP code so they change with the move command
+*/ 
+
+/* for pixelized 8x8 motion on the 8x8 path */
 .8x8_path {
 position: relative;
 	overflow: hidden;
@@ -9,20 +21,12 @@ position: relative;
 }
 
 
-/* The following 64 pixels are an 8x8 picture */
-/* You have to modify the lines 'color: #fff' 
-   to the color you want for each of the 64 
-   pixels in the picture 8 rows of 8 pixels 
-*/
-/* If you want animation you have to add more
-   pixels and change them in the accomapnying 
-   PHP code so they change with the move command
-*/ 
-
-
+/* The following 64 pixels are an 8x8 picture of a 8x8 */
 .8x8_path .8x8_block0 {
 	position: absolute;
-	background-color: blue;
+	left: 0px;
+	top: 0px;
+	background-color: red;
 	width: 1px;
 	height: 1px;
 	padding-top: 1px;
@@ -33,6 +37,8 @@ position: relative;
 }
 .8x8_path .8x8_block1 {
 	position: absolute;
+	left: 1px;
+	top: 0px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -44,6 +50,8 @@ position: relative;
 }
 .8x8_path .8x8_block2 {
 	position: absolute;
+	left: 2px;
+	top: 0px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -55,6 +63,8 @@ position: relative;
 }
 .8x8_path .8x8_block3 {
 	position: absolute;
+	left: 3px;
+	top: 0px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -66,6 +76,8 @@ position: relative;
 }
 .8x8_path .8x8_block4 {
 	position: absolute;
+	left: 4px;
+	top: 0px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -77,6 +89,8 @@ position: relative;
 }
 .8x8_path .8x8_block5 {
 	position: absolute;
+	left: 5px;
+	top: 0px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -88,6 +102,8 @@ position: relative;
 }
 .8x8_path .8x8_block6 {
 	position: absolute;
+	left: 6px;
+	top: 0px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -99,6 +115,8 @@ position: relative;
 }
 .8x8_path .8x8_block7 {
 	position: absolute;
+	left: 7px;
+	top: 0px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -110,6 +128,8 @@ position: relative;
 }
 .8x8_path .8x8_block8 {
 	position: absolute;
+	left: 0px;
+	top: 1px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -121,6 +141,8 @@ position: relative;
 }
 .8x8_path .8x8_block9 {
 	position: absolute;
+	left: 1px;
+	top: 1px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -132,6 +154,8 @@ position: relative;
 }
 .8x8_path .8x8_block10 {
 	position: absolute;
+	left: 2px;
+	top: 1px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -143,6 +167,8 @@ position: relative;
 }
 .8x8_path .8x8_block11 {
 	position: absolute;
+	left: 3px;
+	top: 1px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -154,6 +180,8 @@ position: relative;
 }
 .8x8_path .8x8_block12 {
 	position: absolute;
+	left: 4px;
+	top: 1px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -165,6 +193,8 @@ position: relative;
 }
 .8x8_path .8x8_block13 {
 	position: absolute;
+	left: 5px;
+	top: 1px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -176,6 +206,8 @@ position: relative;
 }
 .8x8_path .8x8_block14 {
 	position: absolute;
+	left: 6px;
+	top: 1px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -187,6 +219,8 @@ position: relative;
 }
 .8x8_path .8x8_block15 {
 	position: absolute;
+	left: 7x;
+	top: 1px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -198,6 +232,8 @@ position: relative;
 }
 .8x8_path .8x8_block16 {
 	position: absolute;
+	left: 0px;
+	top: 2px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -209,6 +245,8 @@ position: relative;
 }
 .8x8_path .8x8_block17 {
 	position: absolute;
+	left: 1px;
+	top: 2px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -220,6 +258,8 @@ position: relative;
 }
 .8x8_path .8x8_block18 {
 	position: absolute;
+	left: 2px;
+	top: 2px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -231,6 +271,8 @@ position: relative;
 }
 .8x8_path .8x8_block19 {
 	position: absolute;
+	left: 3px;
+	top: 2px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -242,6 +284,8 @@ position: relative;
 }
 .8x8_path .8x8_block20 {
 	position: absolute;
+	left: 4px;
+	top: 2px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -253,6 +297,8 @@ position: relative;
 }
 .8x8_path .8x8_block21 {
 	position: absolute;
+	left: 5px;
+	top: 2px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -264,6 +310,8 @@ position: relative;
 }
 .8x8_path .8x8_block22 {
 	position: absolute;
+	left: 6px;
+	top: 2px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -275,6 +323,8 @@ position: relative;
 }
 .8x8_path .8x8_block23 {
 	position: absolute;
+	left: 7px;
+	top: 2px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -286,6 +336,8 @@ position: relative;
 }
 .8x8_path .8x8_block24 {
 	position: absolute;
+	left: 0px;
+	top: 3px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -297,6 +349,8 @@ position: relative;
 }
 .8x8_path .8x8_block25 {
 	position: absolute;
+	left: 1px;
+	top: 3px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -308,6 +362,8 @@ position: relative;
 }
 .8x8_path .8x8_block26 {
 	position: absolute;
+	left: 2px;
+	top: 3px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -319,6 +375,8 @@ position: relative;
 }
 .8x8_path .8x8_block27 {
 	position: absolute;
+	left: 3px;
+	top: 3px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -330,6 +388,8 @@ position: relative;
 }
 .8x8_path .8x8_block28 {
 	position: absolute;
+	left: 4px;
+	top: 3px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -341,6 +401,8 @@ position: relative;
 }
 .8x8_path .8x8_block29 {
 	position: absolute;
+	left: 5px;
+	top: 3px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -352,6 +414,8 @@ position: relative;
 }
 .8x8_path .8x8_block30 {
 	position: absolute;
+	left: 6px;
+	top: 3px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -363,6 +427,8 @@ position: relative;
 }
 .8x8_path .8x8_block31 {
 	position: absolute;
+	left: 7px;
+	top: 3px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -374,6 +440,8 @@ position: relative;
 }
 .8x8_path .8x8_block32 {
 	position: absolute;
+	left: 0px;
+	top: 4px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -385,6 +453,8 @@ position: relative;
 }
 .8x8_path .8x8_block33 {
 	position: absolute;
+	left: 1px;
+	top: 4px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -396,6 +466,8 @@ position: relative;
 }
 .8x8_path .8x8_block34 {
 	position: absolute;
+	left: 2px;
+	top: 4px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -407,6 +479,8 @@ position: relative;
 }
 .8x8_path .8x8_block35 {
 	position: absolute;
+	left: 3px;
+	top: 4px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -418,6 +492,8 @@ position: relative;
 }
 .8x8_path .8x8_block36 {
 	position: absolute;
+	left: 4px;
+	top: 4px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -429,6 +505,8 @@ position: relative;
 }
 .8x8_path .8x8_block37 {
 	position: absolute;
+	left: 5px;
+	top: 4px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -440,6 +518,8 @@ position: relative;
 }
 .8x8_path .8x8_block38 {
 	position: absolute;
+	left: 6px;
+	top: 4px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -451,6 +531,8 @@ position: relative;
 }
 .8x8_path .8x8_block39 {
 	position: absolute;
+	left: 7px;
+	top: 4px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -462,6 +544,8 @@ position: relative;
 }
 .8x8_path .8x8_block40 {
 	position: absolute;
+	left: 0px;
+	top: 5px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -473,6 +557,8 @@ position: relative;
 }
 .8x8_path .8x8_block41 {
 	position: absolute;
+	left: 1px;
+	top: 5px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -484,6 +570,8 @@ position: relative;
 }
 .8x8_path .8x8_block42 {
 	position: absolute;
+	left: 2px;
+	top: 5px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -495,6 +583,8 @@ position: relative;
 }
 .8x8_path .8x8_block43 {
 	position: absolute;
+	left: 3px;
+	top: 5px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -506,6 +596,8 @@ position: relative;
 }
 .8x8_path .8x8_block44 {
 	position: absolute;
+	left: 4px;
+	top: 5px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -517,6 +609,8 @@ position: relative;
 }
 .8x8_path .8x8_block45 {
 	position: absolute;
+	left: 5px;
+	top: 5px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -528,6 +622,8 @@ position: relative;
 }
 .8x8_path .8x8_block46 {
 	position: absolute;
+	left: 6px;
+	top: 5px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -539,6 +635,8 @@ position: relative;
 }
 .8x8_path .8x8_block47 {
 	position: absolute;
+	left: 7px;
+	top: 5px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -550,6 +648,8 @@ position: relative;
 }
 .8x8_path .8x8_block48 {
 	position: absolute;
+	left: 0px;
+	top: 6px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -561,6 +661,8 @@ position: relative;
 }
 .8x8_path .8x8_block49 {
 	position: absolute;
+	left: 1px;
+	top: 6px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -572,6 +674,8 @@ position: relative;
 }
 .8x8_path .8x8_block50 {
 	position: absolute;
+	left: 2px;
+	top: 6px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -583,6 +687,8 @@ position: relative;
 }
 .8x8_path .8x8_block51 {
 	position: absolute;
+	left: 3px;
+	top: 6px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -594,6 +700,8 @@ position: relative;
 }
 .8x8_path .8x8_block52 {
 	position: absolute;
+	left: 4px;
+	top: 6px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -605,6 +713,8 @@ position: relative;
 }
 .8x8_path .8x8_block53 {
 	position: absolute;
+	left: 5px;
+	top: 6px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -616,6 +726,8 @@ position: relative;
 }
 .8x8_path .8x8_block54 {
 	position: absolute;
+	left: 6px;
+	top: 6px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -627,6 +739,8 @@ position: relative;
 }
 .8x8_path .8x8_block55 {
 	position: absolute;
+	left: 7px;
+	top: 6px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -638,6 +752,8 @@ position: relative;
 }
 .8x8_path .8x8_block56 {
 	position: absolute;
+	left: 0px;
+	top: 7px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -649,6 +765,8 @@ position: relative;
 }
 .8x8_path .8x8_block57 {
 	position: absolute;
+	left: 1px;
+	top: 7px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -660,6 +778,8 @@ position: relative;
 }
 .8x8_path .8x8_block58 {
 	position: absolute;
+	left: 2px;
+	top: 7px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -671,6 +791,8 @@ position: relative;
 }
 .8x8_path .8x8_block59 {
 	position: absolute;
+	left: 3px;
+	top: 7px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -682,6 +804,8 @@ position: relative;
 }
 .8x8_path .8x8_block60 {
 	position: absolute;
+	left: 4px;
+	top: 7px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -693,6 +817,8 @@ position: relative;
 }
 .8x8_path .8x8_block61 {
 	position: absolute;
+	left: 5px;
+	top: 7px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -704,6 +830,8 @@ position: relative;
 }
 .8x8_path .8x8_block62 {
 	position: absolute;
+	left: 6px;
+	top: 7px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -715,7 +843,9 @@ position: relative;
 }
 .8x8_path .8x8_block63 {
 	position: absolute;
-	background-color: blue;
+	left: 7px;
+	top: 7px;
+	background-color: red;
 	width: 1px;
 	height: 1px;
 	padding-top: 1px;
@@ -725,16 +855,3 @@ position: relative;
 	white-space: nowrap;
 }
 
-
-//off limits
-.8x8_path .8x8_block64 {
-	position: absolute;
-	background-color: blue;
-	width: 1px;
-	height: 1px;
-	padding-top: 1px;
-	text-align: center;
-	color: #fff;
-	font-size: 1px;
-	white-space: nowrap;
-}

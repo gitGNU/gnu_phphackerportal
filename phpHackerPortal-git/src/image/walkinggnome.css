@@ -12,7 +12,9 @@ position: relative;
 /* The following 64 pixels are an 8x8 picture of a gnome */
 .gnome_path .gnome_block0 {
 	position: absolute;
-	background-color: blue;
+	left: 0px;
+	top: 0px;
+	background-color: red;
 	width: 1px;
 	height: 1px;
 	padding-top: 1px;
@@ -23,6 +25,8 @@ position: relative;
 }
 .gnome_path .gnome_block1 {
 	position: absolute;
+	left: 1px;
+	top: 0px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -34,6 +38,8 @@ position: relative;
 }
 .gnome_path .gnome_block2 {
 	position: absolute;
+	left: 2px;
+	top: 0px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -45,6 +51,8 @@ position: relative;
 }
 .gnome_path .gnome_block3 {
 	position: absolute;
+	left: 3px;
+	top: 0px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -56,6 +64,8 @@ position: relative;
 }
 .gnome_path .gnome_block4 {
 	position: absolute;
+	left: 4px;
+	top: 0px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -67,6 +77,8 @@ position: relative;
 }
 .gnome_path .gnome_block5 {
 	position: absolute;
+	left: 5px;
+	top: 0px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -78,6 +90,8 @@ position: relative;
 }
 .gnome_path .gnome_block6 {
 	position: absolute;
+	left: 6px;
+	top: 0px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -89,6 +103,8 @@ position: relative;
 }
 .gnome_path .gnome_block7 {
 	position: absolute;
+	left: 7px;
+	top: 0px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -100,6 +116,8 @@ position: relative;
 }
 .gnome_path .gnome_block8 {
 	position: absolute;
+	left: 0px;
+	top: 1px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -111,6 +129,8 @@ position: relative;
 }
 .gnome_path .gnome_block9 {
 	position: absolute;
+	left: 1px;
+	top: 1px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -122,6 +142,8 @@ position: relative;
 }
 .gnome_path .gnome_block10 {
 	position: absolute;
+	left: 2px;
+	top: 1px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -133,6 +155,8 @@ position: relative;
 }
 .gnome_path .gnome_block11 {
 	position: absolute;
+	left: 3px;
+	top: 1px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -144,6 +168,8 @@ position: relative;
 }
 .gnome_path .gnome_block12 {
 	position: absolute;
+	left: 4px;
+	top: 1px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -155,6 +181,8 @@ position: relative;
 }
 .gnome_path .gnome_block13 {
 	position: absolute;
+	left: 5px;
+	top: 1px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -166,6 +194,8 @@ position: relative;
 }
 .gnome_path .gnome_block14 {
 	position: absolute;
+	left: 6px;
+	top: 1px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -177,6 +207,8 @@ position: relative;
 }
 .gnome_path .gnome_block15 {
 	position: absolute;
+	left: 7x;
+	top: 1px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -188,6 +220,8 @@ position: relative;
 }
 .gnome_path .gnome_block16 {
 	position: absolute;
+	left: 0px;
+	top: 2px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -199,6 +233,8 @@ position: relative;
 }
 .gnome_path .gnome_block17 {
 	position: absolute;
+	left: 1px;
+	top: 2px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -210,6 +246,8 @@ position: relative;
 }
 .gnome_path .gnome_block18 {
 	position: absolute;
+	left: 2px;
+	top: 2px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -221,6 +259,8 @@ position: relative;
 }
 .gnome_path .gnome_block19 {
 	position: absolute;
+	left: 3px;
+	top: 2px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -232,6 +272,8 @@ position: relative;
 }
 .gnome_path .gnome_block20 {
 	position: absolute;
+	left: 4px;
+	top: 2px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -243,6 +285,8 @@ position: relative;
 }
 .gnome_path .gnome_block21 {
 	position: absolute;
+	left: 5px;
+	top: 2px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -254,6 +298,8 @@ position: relative;
 }
 .gnome_path .gnome_block22 {
 	position: absolute;
+	left: 6px;
+	top: 2px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -265,6 +311,8 @@ position: relative;
 }
 .gnome_path .gnome_block23 {
 	position: absolute;
+	left: 7px;
+	top: 2px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -276,6 +324,8 @@ position: relative;
 }
 .gnome_path .gnome_block24 {
 	position: absolute;
+	left: 0px;
+	top: 3px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -287,6 +337,8 @@ position: relative;
 }
 .gnome_path .gnome_block25 {
 	position: absolute;
+	left: 1px;
+	top: 3px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -298,6 +350,8 @@ position: relative;
 }
 .gnome_path .gnome_block26 {
 	position: absolute;
+	left: 2px;
+	top: 3px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -309,6 +363,8 @@ position: relative;
 }
 .gnome_path .gnome_block27 {
 	position: absolute;
+	left: 3px;
+	top: 3px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -320,6 +376,8 @@ position: relative;
 }
 .gnome_path .gnome_block28 {
 	position: absolute;
+	left: 4px;
+	top: 3px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -331,6 +389,8 @@ position: relative;
 }
 .gnome_path .gnome_block29 {
 	position: absolute;
+	left: 5px;
+	top: 3px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -342,6 +402,8 @@ position: relative;
 }
 .gnome_path .gnome_block30 {
 	position: absolute;
+	left: 6px;
+	top: 3px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -353,6 +415,8 @@ position: relative;
 }
 .gnome_path .gnome_block31 {
 	position: absolute;
+	left: 7px;
+	top: 3px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -364,6 +428,8 @@ position: relative;
 }
 .gnome_path .gnome_block32 {
 	position: absolute;
+	left: 0px;
+	top: 4px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -375,6 +441,8 @@ position: relative;
 }
 .gnome_path .gnome_block33 {
 	position: absolute;
+	left: 1px;
+	top: 4px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -386,6 +454,8 @@ position: relative;
 }
 .gnome_path .gnome_block34 {
 	position: absolute;
+	left: 2px;
+	top: 4px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -397,6 +467,8 @@ position: relative;
 }
 .gnome_path .gnome_block35 {
 	position: absolute;
+	left: 3px;
+	top: 4px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -408,6 +480,8 @@ position: relative;
 }
 .gnome_path .gnome_block36 {
 	position: absolute;
+	left: 4px;
+	top: 4px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -419,6 +493,8 @@ position: relative;
 }
 .gnome_path .gnome_block37 {
 	position: absolute;
+	left: 5px;
+	top: 4px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -430,6 +506,8 @@ position: relative;
 }
 .gnome_path .gnome_block38 {
 	position: absolute;
+	left: 6px;
+	top: 4px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -441,6 +519,8 @@ position: relative;
 }
 .gnome_path .gnome_block39 {
 	position: absolute;
+	left: 7px;
+	top: 4px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -452,6 +532,8 @@ position: relative;
 }
 .gnome_path .gnome_block40 {
 	position: absolute;
+	left: 0px;
+	top: 5px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -463,6 +545,8 @@ position: relative;
 }
 .gnome_path .gnome_block41 {
 	position: absolute;
+	left: 1px;
+	top: 5px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -474,6 +558,8 @@ position: relative;
 }
 .gnome_path .gnome_block42 {
 	position: absolute;
+	left: 2px;
+	top: 5px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -485,6 +571,8 @@ position: relative;
 }
 .gnome_path .gnome_block43 {
 	position: absolute;
+	left: 3px;
+	top: 5px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -496,6 +584,8 @@ position: relative;
 }
 .gnome_path .gnome_block44 {
 	position: absolute;
+	left: 4px;
+	top: 5px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -507,6 +597,8 @@ position: relative;
 }
 .gnome_path .gnome_block45 {
 	position: absolute;
+	left: 5px;
+	top: 5px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -518,6 +610,8 @@ position: relative;
 }
 .gnome_path .gnome_block46 {
 	position: absolute;
+	left: 6px;
+	top: 5px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -529,6 +623,8 @@ position: relative;
 }
 .gnome_path .gnome_block47 {
 	position: absolute;
+	left: 7px;
+	top: 5px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -540,6 +636,8 @@ position: relative;
 }
 .gnome_path .gnome_block48 {
 	position: absolute;
+	left: 0px;
+	top: 6px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -551,6 +649,8 @@ position: relative;
 }
 .gnome_path .gnome_block49 {
 	position: absolute;
+	left: 1px;
+	top: 6px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -562,6 +662,8 @@ position: relative;
 }
 .gnome_path .gnome_block50 {
 	position: absolute;
+	left: 2px;
+	top: 6px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -573,6 +675,8 @@ position: relative;
 }
 .gnome_path .gnome_block51 {
 	position: absolute;
+	left: 3px;
+	top: 6px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -584,6 +688,8 @@ position: relative;
 }
 .gnome_path .gnome_block52 {
 	position: absolute;
+	left: 4px;
+	top: 6px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -595,6 +701,8 @@ position: relative;
 }
 .gnome_path .gnome_block53 {
 	position: absolute;
+	left: 5px;
+	top: 6px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -606,6 +714,8 @@ position: relative;
 }
 .gnome_path .gnome_block54 {
 	position: absolute;
+	left: 6px;
+	top: 6px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -617,6 +727,8 @@ position: relative;
 }
 .gnome_path .gnome_block55 {
 	position: absolute;
+	left: 7px;
+	top: 6px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -628,6 +740,8 @@ position: relative;
 }
 .gnome_path .gnome_block56 {
 	position: absolute;
+	left: 0px;
+	top: 7px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -639,6 +753,8 @@ position: relative;
 }
 .gnome_path .gnome_block57 {
 	position: absolute;
+	left: 1px;
+	top: 7px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -650,6 +766,8 @@ position: relative;
 }
 .gnome_path .gnome_block58 {
 	position: absolute;
+	left: 2px;
+	top: 7px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -661,6 +779,8 @@ position: relative;
 }
 .gnome_path .gnome_block59 {
 	position: absolute;
+	left: 3px;
+	top: 7px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -672,6 +792,8 @@ position: relative;
 }
 .gnome_path .gnome_block60 {
 	position: absolute;
+	left: 4px;
+	top: 7px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -683,6 +805,8 @@ position: relative;
 }
 .gnome_path .gnome_block61 {
 	position: absolute;
+	left: 5px;
+	top: 7px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -694,6 +818,8 @@ position: relative;
 }
 .gnome_path .gnome_block62 {
 	position: absolute;
+	left: 6px;
+	top: 7px;
 	background-color: blue;
 	width: 1px;
 	height: 1px;
@@ -705,7 +831,9 @@ position: relative;
 }
 .gnome_path .gnome_block63 {
 	position: absolute;
-	background-color: blue;
+	left: 7px;
+	top: 7px;
+	background-color: red;
 	width: 1px;
 	height: 1px;
 	padding-top: 1px;
@@ -715,16 +843,3 @@ position: relative;
 	white-space: nowrap;
 }
 
-
-//off limits
-.gnome_path .gnome_block64 {
-	position: absolute;
-	background-color: blue;
-	width: 1px;
-	height: 1px;
-	padding-top: 1px;
-	text-align: center;
-	color: #fff;
-	font-size: 1px;
-	white-space: nowrap;
-}
