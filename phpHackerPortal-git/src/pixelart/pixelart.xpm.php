@@ -68,7 +68,7 @@ function xpmWriteToScreen($array)
 	while ($i < length($array)) {
 		/* add color for xpm header */
 		if (!isset($differentcolors[$array[$i]])) {
-			genascii();
+			genAscii();
 			array_push($differentcolors[$_SESSION['asciisymbol'] => $array[$i]);
 			array_push($differentcolors2[$array[$i] => $_SESSION['asciisymbol']);
 		}
@@ -95,7 +95,7 @@ function xpmWriteToScreen($array)
 printHeader("PixelArt Xpm view");
 printBodyInit();
 	session_start();
-	$_SESSION['asciisymbol'] = 0;
+	$_SESSION['asciisymbol'] = undef;
 	xpmWriteToScreen(xpmMakeHexColorArray());	
 	error_console();
 printBodyHTMLClose();
