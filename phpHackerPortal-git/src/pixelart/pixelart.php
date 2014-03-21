@@ -27,12 +27,29 @@ include(miscDir("css/cssutil.php"));
 include(miscDir("css/cssjs.php"));
 include('pixelart.util.php');
 printHeader("PixelArt Studio", 
-	
+	"<script>
+	function postxpm()
+	{
+		var array = new Array();	
+		var i = 0;		
+		var child = pixelwindow.firstChild;
+		while (child && cild.nodeType != 1) {
+			child  = child.nextSibling;
+			var o = getComputedStyle(child);	
+			array[i++] = o.getPropertyValue("background");	
+		}
+		
+		return array;
+	}	
+	<?php header('Location: pixelart.xpm.php'); ?>
+	</script>" .	
 	//CSS link
 	"<style>" .
 			loadCSSFile("pixelart.start.css") . 
 			loadCSSFile("pixelart.start.2.css") . 
 	"</style>");
+
+
 printBodyInit();
 $tmppixelcolor = $_POST["pixelcolor"];
 
@@ -46,6 +63,8 @@ echo '<div id="pixelwindow">
 echo '"></div>';
 echo '</div>';
 
+/* form for pixel editing-changing */
+
 echo '<form id="changecolor" method="post" action="pixelart.php">';
 echo '<input type="text" name="pixelcolor" value="';
 	if (isset($_POST["pixelcolor"])) {
@@ -57,6 +76,13 @@ echo '">';
 
 echo '<input type="submit" name="submit" value="change pixel color">';
 echo '</form>';
+
+echo '
+<div onclick="
+	postxpm();';
+echo '" class="xpmpost">';
+echo '</div>';
+
 
 printBodyHTMLClose();
 
